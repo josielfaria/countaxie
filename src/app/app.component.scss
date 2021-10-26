@@ -1,0 +1,43 @@
+.btn-action {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  border-radius: 1rem;
+  border: none;
+}
+
+.btn-energy {
+  background: #104e5c;
+  color: white;
+
+  .icon-energy {
+    width: 100px;
+  }
+}
+
+.btn-round {
+  background: #104e5c;
+  color: white;
+
+  .icon-round {
+    width: 130px;
+  }
+}
+
+.btn-reset {
+  height: 50px;
+  background: #858585;
+  color: white;
+  border: none;
+}
+
+.energy-count,
+.round-count {
+  background: #c7bb9e;
+  height: 70px;
+  color: #740000;
+}
+
+.energy-image {
+  width: 100%;
+}

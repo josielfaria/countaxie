@@ -1,0 +1,46 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="axie-card m-auto">
+      
+      <div class="row mb-2">
+        <img class="w-50 m-auto" src="../assets/logo.png" alt="energy-image">
+      </div>
+
+      <div class="row mb-2">
+        <div class="col">
+          <h5 class="energy-count w-100 m-auto d-flex justify-content-center align-items-center shadow-lg rounded">Energias: {{energy}}/10</h5>
+        </div>
+        <div class="col">
+          <h5 class="round-count w-100 d-flex justify-content-center align-items-center shadow-lg rounded">Round {{round}}</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <button class="btn-action btn-energy w-100 mb-2 shadow-lg" (click)="removeEnergy()">
+            <img class="icon-energy" src="../assets/icon-energy-remove.png">
+          </button>
+          <button class="btn-action btn-energy w-100 mb-2 shadow-lg" (click)="addEnergy()">
+            <img class="icon-energy" src="../assets/icon-energy-add.png">
+          </button>
+        </div>
+        <div class="col">
+          <button class="btn-action btn-round w-100 mb-2 shadow-lg" (click)="nextRound()">  
+            <img class="icon-round" src="../assets/icon-round-next.png">
+          </button>
+          <button class="btn-action btn-round w-100 mb-2 shadow-lg" (click)="prevRound()">
+            <img class="icon-round" src="../assets/icon-round-prev.png">
+          </button>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col">
+          <button class="btn-reset w-100 m-auto shadow-lg rounded" (click)="reset()">Resetar</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
